@@ -1075,3 +1075,576 @@
 [04:10:54] [main/INFO] (net.minecraft.client.texture.SpriteAtlasTexture) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
 [04:10:54] [main/INFO] (net.minecraft.client.texture.SpriteAtlasTexture) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
 [04:10:54] [main/INFO] (net.minecraft.client.texture.SpriteAtlasTexture) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[04:11:51] [main/DEBUG] (FabricLoader/Mixin) Mixing client.CreateWorldScreenMixin from fabric-resource-loader-v0.mixins.json into net.minecraft.client.gui.screen.world.CreateWorldScreen
+[04:11:51] [main/DEBUG] (FabricLoader/Mixin) fabric-resource-loader-v0.mixins.json:client.CreateWorldScreenMixin from mod fabric-resource-loader-v0->@Inject::onScanPacks(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[04:11:51] [main/DEBUG] (FabricLoader/Mixin) fabric-resource-loader-v0.mixins.json:client.CreateWorldScreenMixin from mod fabric-resource-loader-v0->@Inject::onScanPacks(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[04:11:51] [main/DEBUG] (FabricLoader/Mixin) fabric-resource-loader-v0.mixins.json:client.CreateWorldScreenMixin from mod fabric-resource-loader-v0->@Inject::onScanPacks(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[04:11:51] [main/DEBUG] (FabricLoader/Mixin) Mixing GameRulesAccessor from fabric-game-rule-api-v1.mixins.json into net.minecraft.world.GameRules
+[04:11:51] [main/DEBUG] (FabricLoader/Mixin) Renaming @Invoker method callRegister(Ljava/lang/String;Lnet/minecraft/world/GameRules$Category;Lnet/minecraft/world/GameRules$Type;)Lnet/minecraft/world/GameRules$Key; to callRegister_$md$888632$0 in fabric-game-rule-api-v1.mixins.json:GameRulesAccessor from mod fabric-game-rule-api-v1
+[04:11:51] [main/DEBUG] (FabricLoader/Mixin) Renaming @Accessor method getRuleTypes()Ljava/util/Map; to getRuleTypes_$md$888632$1 in fabric-game-rule-api-v1.mixins.json:GameRulesAccessor from mod fabric-game-rule-api-v1
+[04:11:51] [main/DEBUG] (FabricLoader/Mixin) Mixing RuleKeyMixin from fabric-game-rule-api-v1.mixins.json into net.minecraft.world.GameRules$Key
+[04:11:51] [main/DEBUG] (FabricLoader/Mixin) Mixing BooleanRuleAccessor from fabric-game-rule-api-v1.mixins.json into net.minecraft.world.GameRules$BooleanRule
+[04:11:51] [main/DEBUG] (FabricLoader/Mixin) Renaming @Invoker method invokeCreate(ZLjava/util/function/BiConsumer;)Lnet/minecraft/world/GameRules$Type; to invokeCreate_$md$888632$0 in fabric-game-rule-api-v1.mixins.json:BooleanRuleAccessor from mod fabric-game-rule-api-v1
+[04:11:51] [main/DEBUG] (FabricLoader/Mixin) Mixing IntRuleAccessor from fabric-game-rule-api-v1.mixins.json into net.minecraft.world.GameRules$IntRule
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Registry minecraft:dimension_type has been marked as modded, registry entry minecraft:overworld was changed
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Registry minecraft:worldgen/biome has been marked as modded, registry entry minecraft:ocean was changed
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Registry minecraft:worldgen/configured_surface_builder has been marked as modded, registry entry minecraft:badlands was changed
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Registry minecraft:worldgen/configured_carver has been marked as modded, registry entry minecraft:cave was changed
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Registry minecraft:worldgen/configured_feature has been marked as modded, registry entry minecraft:end_spike was changed
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Registry minecraft:worldgen/configured_structure_feature has been marked as modded, registry entry minecraft:pillager_outpost was changed
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Registry minecraft:worldgen/processor_list has been marked as modded, registry entry minecraft:empty was changed
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Registry minecraft:worldgen/template_pool has been marked as modded, registry entry minecraft:empty was changed
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Registry minecraft:worldgen/noise_settings has been marked as modded, registry entry minecraft:overworld was changed
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.DynamicRegistrySync) Setting up synchronisation of new BuiltinRegistries entries to the built-in DynamicRegistryManager
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Registry minecraft:dimension_type has been marked as modded, registry entry minecraft:overworld was changed
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Registry minecraft:worldgen/noise_settings has been marked as modded, registry entry minecraft:overworld was changed
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing modification.RegistryOpsMixin from fabric-biome-api-v1.mixins.json into net.minecraft.util.dynamic.RegistryOps
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:modification.RegistryOpsMixin from mod fabric-biome-api-v1->@Inject::afterCreation(Lcom/mojang/serialization/DynamicOps;Lnet/minecraft/resource/ResourceManager;Lnet/minecraft/util/registry/DynamicRegistryManager$Impl;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing AccessorLevelStorageSession from fabric-registry-sync-v0.mixins.json into net.minecraft.world.level.storage.LevelStorage$Session
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinLevelStorageSession from fabric-registry-sync-v0.mixins.json into net.minecraft.world.level.storage.LevelStorage$Session
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-registry-sync-v0.mixins.json:MixinLevelStorageSession from mod fabric-registry-sync-v0->@Inject::saveWorld(Lnet/minecraft/util/registry/DynamicRegistryManager;Lnet/minecraft/world/SaveProperties;Lnet/minecraft/nbt/NbtCompound;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-registry-sync-v0.mixins.json:MixinLevelStorageSession from mod fabric-registry-sync-v0->@Inject::saveWorld(Lnet/minecraft/util/registry/DynamicRegistryManager;Lnet/minecraft/world/SaveProperties;Lnet/minecraft/nbt/NbtCompound;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-registry-sync-v0.mixins.json:MixinLevelStorageSession from mod fabric-registry-sync-v0->@Inject::saveWorld(Lnet/minecraft/util/registry/DynamicRegistryManager;Lnet/minecraft/world/SaveProperties;Lnet/minecraft/nbt/NbtCompound;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-registry-sync-v0.mixins.json:MixinLevelStorageSession from mod fabric-registry-sync-v0->@Inject::readWorldProperties(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-registry-sync-v0.mixins.json:MixinLevelStorageSession from mod fabric-registry-sync-v0->@Inject::readWorldProperties(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-registry-sync-v0.mixins.json:MixinLevelStorageSession from mod fabric-registry-sync-v0->@Inject::readWorldProperties(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing KeyedResourceReloadListenerMixin from fabric-resource-loader-v0.mixins.json into net.minecraft.recipe.RecipeManager
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing KeyedResourceReloadListenerMixin from fabric-resource-loader-v0.mixins.json into net.minecraft.tag.TagManagerLoader
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinLootManager from fabric-loot-tables-v1.mixins.json into net.minecraft.loot.LootManager
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Renaming synthetic method lambda$apply$2(Lnet/minecraft/resource/ResourceManager;Ljava/util/Map;Lnet/minecraft/util/Identifier;Lnet/minecraft/loot/LootTable;)V to md888632$lambda$apply$2$0 in fabric-loot-tables-v1.mixins.json:MixinLootManager from mod fabric-loot-tables-v1
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Renaming synthetic method lambda$apply$1(Lnet/fabricmc/fabric/api/loot/v1/FabricLootSupplierBuilder;Lnet/minecraft/util/Identifier;)Lnet/minecraft/loot/LootTable; to md888632$lambda$apply$1$1 in fabric-loot-tables-v1.mixins.json:MixinLootManager from mod fabric-loot-tables-v1
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Renaming synthetic method lambda$apply$0(Ljava/util/Map;Lnet/minecraft/util/Identifier;Lnet/minecraft/loot/LootTable;)V to md888632$lambda$apply$0$2 in fabric-loot-tables-v1.mixins.json:MixinLootManager from mod fabric-loot-tables-v1
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing KeyedResourceReloadListenerMixin from fabric-resource-loader-v0.mixins.json into net.minecraft.loot.LootManager
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-loot-tables-v1.mixins.json:MixinLootManager from mod fabric-loot-tables-v1->@Inject::apply(Ljava/util/Map;Lnet/minecraft/resource/ResourceManager;Lnet/minecraft/util/profiler/Profiler;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-loot-tables-v1.mixins.json:MixinLootManager from mod fabric-loot-tables-v1->@Inject::apply(Ljava/util/Map;Lnet/minecraft/resource/ResourceManager;Lnet/minecraft/util/profiler/Profiler;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-loot-tables-v1.mixins.json:MixinLootManager from mod fabric-loot-tables-v1->@Inject::apply(Ljava/util/Map;Lnet/minecraft/resource/ResourceManager;Lnet/minecraft/util/profiler/Profiler;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinLootPool from fabric-loot-tables-v1.mixins.json into net.minecraft.loot.LootPool
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinLootSupplier from fabric-loot-tables-v1.mixins.json into net.minecraft.loot.LootTable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing KeyedResourceReloadListenerMixin from fabric-resource-loader-v0.mixins.json into net.minecraft.server.ServerAdvancementLoader
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing CommandManagerMixin from fabric-command-api-v1.mixins.json into net.minecraft.server.command.CommandManager
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-command-api-v1.mixins.json:CommandManagerMixin from mod fabric-command-api-v1->@Inject::fabric_addCommands(Lnet/minecraft/server/command/CommandManager$RegistrationEnvironment;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-command-api-v1.mixins.json:CommandManagerMixin from mod fabric-command-api-v1->@Inject::fabric_addCommands(Lnet/minecraft/server/command/CommandManager$RegistrationEnvironment;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-command-api-v1.mixins.json:CommandManagerMixin from mod fabric-command-api-v1->@Inject::fabric_addCommands(Lnet/minecraft/server/command/CommandManager$RegistrationEnvironment;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing GameRuleCommandAccessor from fabric-game-rule-api-v1.mixins.json into net.minecraft.server.command.GameRuleCommand
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Renaming @Invoker method invokeExecuteSet(Lcom/mojang/brigadier/context/CommandContext;Lnet/minecraft/world/GameRules$Key;)I to invokeExecuteSet_$md$888632$0 in fabric-game-rule-api-v1.mixins.json:GameRuleCommandAccessor from mod fabric-game-rule-api-v1
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Renaming @Invoker method invokeExecuteQuery(Lnet/minecraft/server/command/ServerCommandSource;Lnet/minecraft/world/GameRules$Key;)I to invokeExecuteQuery_$md$888632$1 in fabric-game-rule-api-v1.mixins.json:GameRuleCommandAccessor from mod fabric-game-rule-api-v1
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing GameRuleCommandVisitorMixin from fabric-game-rule-api-v1.mixins.json into net.minecraft.server.command.GameRuleCommand$1
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-game-rule-api-v1.mixins.json:GameRuleCommandVisitorMixin from mod fabric-game-rule-api-v1->@Inject::onRegisterCommand(Lnet/minecraft/world/GameRules$Key;Lnet/minecraft/world/GameRules$Type;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing HelpCommandAccessor from fabric-command-api-v1.mixins.json into net.minecraft.server.command.HelpCommand
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Renaming @Accessor method getFailedException()Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType; to getFailedException_$md$888632$0 in fabric-command-api-v1.mixins.json:HelpCommandAccessor from mod fabric-command-api-v1
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing TeleportCommandMixin from fabric-entity-events-v1.mixins.json into net.minecraft.server.command.TeleportCommand
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-entity-events-v1.mixins.json:TeleportCommandMixin from mod fabric-entity-events-v1->@Inject::afterEntityTeleportedToWorld(Lnet/minecraft/server/command/ServerCommandSource;Lnet/minecraft/entity/Entity;Lnet/minecraft/server/world/ServerWorld;DDDLjava/util/Set;FFLjava/lang/Object;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;FFLnet/minecraft/entity/Entity;)V doesn't use it's CallbackInfo
+[04:11:53] [main/WARN] (net.minecraft.server.command.CommandManager) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04:11:53] [main/WARN] (net.minecraft.server.command.CommandManager) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:11:53] [main/WARN] (net.minecraft.server.command.CommandManager) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:11:53] [main/WARN] (net.minecraft.server.command.CommandManager) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04:11:53] [main/WARN] (net.minecraft.server.command.CommandManager) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing KeyedResourceReloadListenerMixin from fabric-resource-loader-v0.mixins.json into net.minecraft.server.function.FunctionLoader
+[04:11:53] [main/INFO] (net.minecraft.resource.ReloadableResourceManagerImpl) Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1))
+[04:11:53] [Worker-Main-11/DEBUG] (FabricLoader/Mixin) Mixing MixinTagBuilder from fabric-tag-extensions-v0.mixins.json into net.minecraft.tag.Tag$Builder
+[04:11:53] [Worker-Main-11/DEBUG] (FabricLoader/Mixin) fabric-tag-extensions-v0.mixins.json:MixinTagBuilder from mod fabric-tag-extensions-v0->@Inject::onFromJsonClear(Lcom/google/gson/JsonObject;Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[04:11:53] [Worker-Main-11/DEBUG] (FabricLoader/Mixin) fabric-tag-extensions-v0.mixins.json:MixinTagBuilder from mod fabric-tag-extensions-v0->@Inject::onFromJsonClear(Lcom/google/gson/JsonObject;Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[04:11:53] [Worker-Main-11/DEBUG] (FabricLoader/Mixin) fabric-tag-extensions-v0.mixins.json:MixinTagBuilder from mod fabric-tag-extensions-v0->@Inject::onFromJsonClear(Lcom/google/gson/JsonObject;Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[04:11:53] [main/INFO] (net.minecraft.recipe.RecipeManager) Loaded 7 recipes
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing LootSupplierBuilderHooks from fabric-loot-tables-v1.mixins.json into net.minecraft.loot.LootTable$Builder
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing CriteriaAccessor from fabric-object-builder-v1.mixins.json into net.minecraft.advancement.criterion.Criteria
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Renaming @Invoker method callRegister(Lnet/minecraft/advancement/criterion/Criterion;)Lnet/minecraft/advancement/criterion/Criterion; to callRegister_$md$888632$0 in fabric-object-builder-v1.mixins.json:CriteriaAccessor from mod fabric-object-builder-api-v1
+[04:11:53] [main/INFO] (net.minecraft.advancement.AdvancementManager) Loaded 927 advancements
+[04:11:53] [main/INFO] (net.fabricmc.fabric.impl.biome.modification.BiomeModificationImpl) Applied 0 biome modifications to 0 of 79 new biomes in 1.536 ms
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Starting registry remap
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Existing registry data found. modded = false
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:ocean 0
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:plains 1
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:desert 2
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:mountains 3
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:forest 4
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:taiga 5
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:swamp 6
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:river 7
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:nether_wastes 8
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:the_end 9
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:frozen_ocean 10
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:frozen_river 11
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:snowy_tundra 12
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:snowy_mountains 13
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:mushroom_fields 14
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:mushroom_field_shore 15
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:beach 16
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:desert_hills 17
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:wooded_hills 18
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:taiga_hills 19
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:mountain_edge 20
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:jungle 21
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:jungle_hills 22
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:jungle_edge 23
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:deep_ocean 24
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:stone_shore 25
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:snowy_beach 26
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:birch_forest 27
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:birch_forest_hills 28
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:dark_forest 29
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:snowy_taiga 30
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:snowy_taiga_hills 31
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:giant_tree_taiga 32
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:giant_tree_taiga_hills 33
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:wooded_mountains 34
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:savanna 35
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:savanna_plateau 36
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:badlands 37
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:wooded_badlands_plateau 38
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:badlands_plateau 39
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:small_end_islands 40
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:end_midlands 41
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:end_highlands 42
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:end_barrens 43
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:warm_ocean 44
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:lukewarm_ocean 45
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:cold_ocean 46
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:deep_warm_ocean 47
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:deep_lukewarm_ocean 48
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:deep_cold_ocean 49
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:deep_frozen_ocean 50
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:the_void 127
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:sunflower_plains 129
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:desert_lakes 130
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:gravelly_mountains 131
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:flower_forest 132
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:taiga_mountains 133
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:swamp_hills 134
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:ice_spikes 140
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:modified_jungle 149
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:modified_jungle_edge 151
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:tall_birch_forest 155
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:tall_birch_hills 156
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:dark_forest_hills 157
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:snowy_taiga_mountains 158
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:giant_spruce_taiga 160
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:giant_spruce_taiga_hills 161
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:modified_gravelly_mountains 162
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:shattered_savanna 163
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:shattered_savanna_plateau 164
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:eroded_badlands 165
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:modified_wooded_badlands_plateau 166
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:modified_badlands_plateau 167
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:bamboo_jungle 168
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:bamboo_jungle_hills 169
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:soul_sand_valley 170
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:crimson_forest 171
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:warped_forest 172
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Using existing id for minecraft:basalt_deltas 173
+[04:11:53] [main/DEBUG] (net.fabricmc.fabric.impl.registry.sync.PersistentDynamicRegistryHandler) Skipping remap of minecraft:worldgen/biome
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Reading registry data from D:\LairyTrapka-1.16.5\run\saves\New World\data\fabricRegistry.dat
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Reading registry data from D:\LairyTrapka-1.16.5\run\saves\New World\data\fabricRegistry.dat.1
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Reading registry data from D:\LairyTrapka-1.16.5\run\saves\New World\data\fabricRegistry.dat.2
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Starting registry save
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sound_event
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:fluid
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Skipping un-modded registry: minecraft:mob_effect
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:enchantment
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:entity_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:item
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:potion
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:particle_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block_entity_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:motive
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:custom_stat
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:chunk_status
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:rule_test
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:pos_rule_test
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:menu
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_serializer
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:attribute
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:stat_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_profession
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:point_of_interest_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:memory_module_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sensor_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:schedule
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:activity
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_pool_entry_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_function_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_condition_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/surface_builder
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/carver
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_feature
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_piece
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/decorator
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/block_state_provider_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/block_placer_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/foliage_placer_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/trunk_placer_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/tree_decorator_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature_size_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/biome_source
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/chunk_generator
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_processor
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_pool_element
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving empty registry data
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinSetBaseBiomesLayer from fabric-biome-api-v1.mixins.json into net.minecraft.world.biome.layer.AddBaseBiomesLayer
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinSetBaseBiomesLayer from mod fabric-biome-api-v1->@Inject::injectDryBiomes(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinSetBaseBiomesLayer from mod fabric-biome-api-v1->@Inject::injectDryBiomes(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinSetBaseBiomesLayer from mod fabric-biome-api-v1->@Inject::injectTemperateBiomes(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinSetBaseBiomesLayer from mod fabric-biome-api-v1->@Inject::injectTemperateBiomes(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinSetBaseBiomesLayer from mod fabric-biome-api-v1->@Inject::injectSnowyBiomes(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinSetBaseBiomesLayer from mod fabric-biome-api-v1->@Inject::injectSnowyBiomes(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinSetBaseBiomesLayer from mod fabric-biome-api-v1->@Inject::injectCoolBiomes(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinSetBaseBiomesLayer from mod fabric-biome-api-v1->@Inject::injectCoolBiomes(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinSetBaseBiomesLayer from mod fabric-biome-api-v1->@Inject::transformVariants(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinSetBaseBiomesLayer from mod fabric-biome-api-v1->@Inject::transformVariants(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinSetBaseBiomesLayer from mod fabric-biome-api-v1->@Inject::transformVariants(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinSetBaseBiomesLayer from mod fabric-biome-api-v1->@Inject::transformVariants(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinSetBaseBiomesLayer from mod fabric-biome-api-v1->@Inject::transformVariants(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinSetBaseBiomesLayer from mod fabric-biome-api-v1->@Inject::transformVariants(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinSetBaseBiomesLayer from mod fabric-biome-api-v1->@Inject::transformVariants(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinSetBaseBiomesLayer from mod fabric-biome-api-v1->@Inject::transformVariants(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinSetBaseBiomesLayer from mod fabric-biome-api-v1->@Inject::transformVariants(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing AddHillsLayerAccessor from fabric-biome-api-v1.mixins.json into net.minecraft.world.biome.layer.AddHillsLayer
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Renaming @Accessor method getBaseToVariantMap()Lit/unimi/dsi/fastutil/ints/Int2IntMap; to getBaseToVariantMap_$md$888632$0 in fabric-biome-api-v1.mixins.json:AddHillsLayerAccessor from mod fabric-biome-api-v1
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinAddHillsLayer from fabric-biome-api-v1.mixins.json into net.minecraft.world.biome.layer.AddHillsLayer
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinAddHillsLayer from mod fabric-biome-api-v1->@Inject::sample(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;Lnet/minecraft/world/biome/layer/util/LayerSampler;Lnet/minecraft/world/biome/layer/util/LayerSampler;IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinAddEdgeBiomesLayer from fabric-biome-api-v1.mixins.json into net.minecraft.world.biome.layer.AddEdgeBiomesLayer
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinAddEdgeBiomesLayer from mod fabric-biome-api-v1->@Inject::sample(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;IIIIILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinAddRiversLayer from fabric-biome-api-v1.mixins.json into net.minecraft.world.biome.layer.ApplyRiverLayer
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-biome-api-v1.mixins.json:MixinAddRiversLayer from mod fabric-biome-api-v1->@Inject::sample(Lnet/minecraft/world/biome/layer/util/LayerRandomnessSource;Lnet/minecraft/world/biome/layer/util/LayerSampler;Lnet/minecraft/world/biome/layer/util/LayerSampler;IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Registry minecraft:dimension has been marked as modded, registry entry minecraft:overworld was changed
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Registry minecraft:dimension has been marked as modded, registry entry minecraft:overworld was changed
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinBlockEntityRenderDispatcher from fabric-renderer-registries-v1.mixins.json into net.minecraft.client.render.block.entity.BlockEntityRenderDispatcher
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) Renaming synthetic method lambda$init$0(Lnet/minecraft/block/entity/BlockEntityType;Ljava/util/function/Function;)V to md888632$lambda$init$0$0 in fabric-renderer-registries-v1.mixins.json:MixinBlockEntityRenderDispatcher from mod fabric-renderer-registries-v1
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-renderer-registries-v1.mixins.json:MixinBlockEntityRenderDispatcher from mod fabric-renderer-registries-v1->@Inject::init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-renderer-registries-v1.mixins.json:MixinBlockEntityRenderDispatcher from mod fabric-renderer-registries-v1->@Inject::init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[04:11:53] [main/DEBUG] (FabricLoader/Mixin) fabric-renderer-registries-v1.mixins.json:MixinBlockEntityRenderDispatcher from mod fabric-renderer-registries-v1->@Inject::init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Starting registry save
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sound_event
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:fluid
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Skipping un-modded registry: minecraft:mob_effect
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:enchantment
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:entity_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:item
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:potion
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:particle_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block_entity_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:motive
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:custom_stat
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:chunk_status
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:rule_test
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:pos_rule_test
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:menu
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_serializer
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:attribute
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:stat_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_profession
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:point_of_interest_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:memory_module_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sensor_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:schedule
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:activity
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_pool_entry_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_function_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_condition_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/surface_builder
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/carver
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_feature
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_piece
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/decorator
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/block_state_provider_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/block_placer_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/foliage_placer_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/trunk_placer_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/tree_decorator_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature_size_type
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/biome_source
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/chunk_generator
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_processor
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_pool_element
+[04:11:53] [main/DEBUG] (FabricRegistrySync) Not saving empty registry data
+[04:11:54] [main/INFO] (com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04:11:54] [main/DEBUG] (FabricLoader/Mixin) Mixing PlayerManagerMixin from fabric-entity-events-v1.mixins.json into net.minecraft.server.PlayerManager
+[04:11:54] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinPlayerManager from fabric-registry-sync-v0.mixins.json into net.minecraft.server.PlayerManager
+[04:11:54] [main/DEBUG] (FabricLoader/Mixin) Mixing PlayerManagerMixin from fabric-networking-api-v1.mixins.json into net.minecraft.server.PlayerManager
+[04:11:54] [main/DEBUG] (FabricLoader/Mixin) fabric-entity-events-v1.mixins.json:PlayerManagerMixin from mod fabric-entity-events-v1->@Inject::afterRespawn(Lnet/minecraft/server/network/ServerPlayerEntity;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:54] [main/DEBUG] (FabricLoader/Mixin) fabric-registry-sync-v0.mixins.json:MixinPlayerManager from mod fabric-registry-sync-v0->@Inject::onPlayerConnect(Lnet/minecraft/network/ClientConnection;Lnet/minecraft/server/network/ServerPlayerEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[04:11:54] [main/DEBUG] (FabricLoader/Mixin) fabric-registry-sync-v0.mixins.json:MixinPlayerManager from mod fabric-registry-sync-v0->@Inject::onPlayerConnect(Lnet/minecraft/network/ClientConnection;Lnet/minecraft/server/network/ServerPlayerEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[04:11:54] [main/DEBUG] (FabricLoader/Mixin) fabric-registry-sync-v0.mixins.json:MixinPlayerManager from mod fabric-registry-sync-v0->@Inject::onPlayerConnect(Lnet/minecraft/network/ClientConnection;Lnet/minecraft/server/network/ServerPlayerEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[04:11:54] [main/DEBUG] (FabricLoader/Mixin) fabric-networking-api-v1.mixins.json:PlayerManagerMixin from mod fabric-networking-api-v1->@Inject::handlePlayerConnection(Lnet/minecraft/network/ClientConnection;Lnet/minecraft/server/network/ServerPlayerEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[04:11:54] [main/DEBUG] (FabricLoader/Mixin) fabric-networking-api-v1.mixins.json:PlayerManagerMixin from mod fabric-networking-api-v1->@Inject::handlePlayerConnection(Lnet/minecraft/network/ClientConnection;Lnet/minecraft/server/network/ServerPlayerEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[04:11:54] [main/DEBUG] (FabricLoader/Mixin) fabric-networking-api-v1.mixins.json:PlayerManagerMixin from mod fabric-networking-api-v1->@Inject::handlePlayerConnection(Lnet/minecraft/network/ClientConnection;Lnet/minecraft/server/network/ServerPlayerEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[04:11:54] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinServerPlayerInteractionManager from fabric-events-interaction-v0.mixins.json into net.minecraft.server.network.ServerPlayerInteractionManager
+[04:11:54] [main/DEBUG] (FabricLoader/Mixin) fabric-events-interaction-v0.mixins.json:MixinServerPlayerInteractionManager from mod fabric-events-interaction-v0->@Inject::startBlockBreak(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/network/packet/c2s/play/PlayerActionC2SPacket$Action;Lnet/minecraft/util/math/Direction;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[04:11:54] [main/DEBUG] (FabricLoader/Mixin) fabric-events-interaction-v0.mixins.json:MixinServerPlayerInteractionManager from mod fabric-events-interaction-v0->@Inject::interactBlock(Lnet/minecraft/server/network/ServerPlayerEntity;Lnet/minecraft/world/World;Lnet/minecraft/item/ItemStack;Lnet/minecraft/util/Hand;Lnet/minecraft/util/hit/BlockHitResult;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:54] [main/DEBUG] (FabricLoader/Mixin) fabric-events-interaction-v0.mixins.json:MixinServerPlayerInteractionManager from mod fabric-events-interaction-v0->@Inject::interactItem(Lnet/minecraft/server/network/ServerPlayerEntity;Lnet/minecraft/world/World;Lnet/minecraft/item/ItemStack;Lnet/minecraft/util/Hand;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:54] [main/DEBUG] (FabricLoader/Mixin) fabric-events-interaction-v0.mixins.json:MixinServerPlayerInteractionManager from mod fabric-events-interaction-v0->@Inject::breakBlock(Lnet/minecraft/util/math/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/block/BlockState;Lnet/minecraft/block/entity/BlockEntity;Lnet/minecraft/block/Block;)V does use it's CallbackInfoReturnable
+[04:11:54] [main/DEBUG] (FabricLoader/Mixin) fabric-events-interaction-v0.mixins.json:MixinServerPlayerInteractionManager from mod fabric-events-interaction-v0->@Inject::onBlockBroken(Lnet/minecraft/util/math/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/block/BlockState;Lnet/minecraft/block/entity/BlockEntity;Lnet/minecraft/block/Block;Z)V doesn't use it's CallbackInfoReturnable
+[04:11:54] [main/DEBUG] (FabricLoader/Mixin) fabric-events-interaction-v0.mixins.json:MixinServerPlayerInteractionManager from mod fabric-events-interaction-v0->@Inject::onBlockBroken(Lnet/minecraft/util/math/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/block/BlockState;Lnet/minecraft/block/entity/BlockEntity;Lnet/minecraft/block/Block;Z)V has 0 override(s) in child classes
+[04:11:54] [main/DEBUG] (FabricLoader/Mixin) fabric-events-interaction-v0.mixins.json:MixinServerPlayerInteractionManager from mod fabric-events-interaction-v0->@Inject::onBlockBroken(Lnet/minecraft/util/math/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/block/BlockState;Lnet/minecraft/block/entity/BlockEntity;Lnet/minecraft/block/Block;Z)V won't be passed a CallbackInfoReturnable as a result
+[04:11:54] [Server thread/INFO] (net.minecraft.server.integrated.IntegratedServer) Starting integrated minecraft server version 1.16.5
+[04:11:54] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Generating keypair
+[04:11:54] [Server thread/DEBUG] (FabricLoader/Mixin) Mixing ThreadedAnvilChunkStorageMixin from fabric-networking-api-v1.mixins.json into net.minecraft.server.world.ThreadedAnvilChunkStorage
+[04:11:54] [Server thread/DEBUG] (FabricLoader/Mixin) Mixing ThreadedAnvilChunkStorageMixin from fabric-lifecycle-events-v1.mixins.json into net.minecraft.server.world.ThreadedAnvilChunkStorage
+[04:11:54] [Server thread/DEBUG] (FabricLoader/Mixin) fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric-lifecycle-events-v1->@Inject::onChunkUnload(Lnet/minecraft/server/world/ChunkHolder;Ljava/util/concurrent/CompletableFuture;JLnet/minecraft/world/chunk/Chunk;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[04:11:54] [Server thread/DEBUG] (FabricLoader/Mixin) fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric-lifecycle-events-v1->@Inject::onChunkUnload(Lnet/minecraft/server/world/ChunkHolder;Ljava/util/concurrent/CompletableFuture;JLnet/minecraft/world/chunk/Chunk;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[04:11:54] [Server thread/DEBUG] (FabricLoader/Mixin) fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric-lifecycle-events-v1->@Inject::onChunkUnload(Lnet/minecraft/server/world/ChunkHolder;Ljava/util/concurrent/CompletableFuture;JLnet/minecraft/world/chunk/Chunk;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[04:11:54] [Server thread/DEBUG] (FabricLoader/Mixin) fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric-lifecycle-events-v1->@Inject::onChunkLoad(Lnet/minecraft/server/world/ChunkHolder;Lnet/minecraft/world/chunk/Chunk;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:54] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Preparing start region for dimension minecraft:overworld
+[04:11:54] [Server thread/DEBUG] (FabricLoader/Mixin) Mixing ChunkSerializerMixin from fabric-structure-api-v1.mixins.json into net.minecraft.world.ChunkSerializer
+[04:11:54] [Server thread/DEBUG] (FabricLoader/Mixin) Renaming synthetic method lambda$static$0()Ljava/lang/Boolean; to md888632$lambda$static$0$0 in fabric-structure-api-v1.mixins.json:ChunkSerializerMixin from mod fabric-structure-api-v1
+[04:11:54] [Server thread/DEBUG] (FabricLoader/Mixin) fabric-structure-api-v1.mixins.json:ChunkSerializerMixin from mod fabric-structure-api-v1->@Inject::removeNullKeys(Lnet/minecraft/util/math/ChunkPos;Lnet/minecraft/nbt/NbtCompound;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:55] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[04:11:55] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[04:11:55] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[04:11:55] [Server thread/DEBUG] (FabricLoader/Mixin) Mixing accessor.EntityTrackerAccessor from fabric-networking-api-v1.mixins.json into net.minecraft.server.world.ThreadedAnvilChunkStorage$EntityTracker
+[04:11:55] [Server thread/DEBUG] (FabricLoader/Mixin) Mixing EntityTrackerEntryMixin from fabric-networking-api-v1.mixins.json into net.minecraft.server.network.EntityTrackerEntry
+[04:11:55] [Server thread/DEBUG] (FabricLoader/Mixin) fabric-networking-api-v1.mixins.json:EntityTrackerEntryMixin from mod fabric-networking-api-v1->@Inject::onStartTracking(Lnet/minecraft/server/network/ServerPlayerEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[04:11:55] [Server thread/DEBUG] (FabricLoader/Mixin) fabric-networking-api-v1.mixins.json:EntityTrackerEntryMixin from mod fabric-networking-api-v1->@Inject::onStartTracking(Lnet/minecraft/server/network/ServerPlayerEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[04:11:55] [Server thread/DEBUG] (FabricLoader/Mixin) fabric-networking-api-v1.mixins.json:EntityTrackerEntryMixin from mod fabric-networking-api-v1->@Inject::onStartTracking(Lnet/minecraft/server/network/ServerPlayerEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[04:11:55] [Server thread/DEBUG] (FabricLoader/Mixin) fabric-networking-api-v1.mixins.json:EntityTrackerEntryMixin from mod fabric-networking-api-v1->@Inject::onStopTracking(Lnet/minecraft/server/network/ServerPlayerEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[04:11:55] [Server thread/DEBUG] (FabricLoader/Mixin) fabric-networking-api-v1.mixins.json:EntityTrackerEntryMixin from mod fabric-networking-api-v1->@Inject::onStopTracking(Lnet/minecraft/server/network/ServerPlayerEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[04:11:55] [Server thread/DEBUG] (FabricLoader/Mixin) fabric-networking-api-v1.mixins.json:EntityTrackerEntryMixin from mod fabric-networking-api-v1->@Inject::onStopTracking(Lnet/minecraft/server/network/ServerPlayerEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[04:11:57] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 83%
+[04:11:57] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 83%
+[04:11:57] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 83%
+[04:11:57] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 91%
+[04:11:58] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 91%
+[04:11:58] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 96%
+[04:11:58] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Time elapsed: 4233 ms
+[04:11:59] [Server thread/INFO] (net.minecraft.server.integrated.IntegratedServer) Changing view distance to 11, from 10
+[04:11:59] [Netty Local Client IO #0/DEBUG] (FabricLoader/Mixin) Mixing accessor.CustomPayloadC2SPacketAccessor from fabric-networking-api-v1.mixins.json into net.minecraft.network.packet.c2s.play.CustomPayloadC2SPacket
+[04:11:59] [Netty Local Client IO #0/DEBUG] (FabricLoader/Mixin) Mixing accessor.LoginQueryRequestS2CPacketAccessor from fabric-networking-api-v1.mixins.json into net.minecraft.network.packet.s2c.login.LoginQueryRequestS2CPacket
+[04:11:59] [Netty Local Client IO #0/DEBUG] (FabricLoader/Mixin) Mixing accessor.LoginQueryResponseC2SPacketAccessor from fabric-networking-api-v1.mixins.json into net.minecraft.network.packet.c2s.login.LoginQueryResponseC2SPacket
+[04:11:59] [Netty Local Client IO #0/DEBUG] (ClientLoginNetworkAddon for Client) Handling inbound login response with id 0 and channel with name fabric-networking-api-v1:early_registration
+[04:11:59] [Netty Local Client IO #0/DEBUG] (fabric-networking-api-v1) Received accepted channels from the server
+[04:11:59] [Netty Local Client IO #0/DEBUG] (fabric-networking-api-v1) Sent accepted channels to the server
+[04:11:59] [Netty Server IO #1/DEBUG] (ServerLoginNetworkAddon for local:E:f7dd44c5) Handling inbound login query with id 0
+[04:11:59] [Netty Server IO #1/DEBUG] (fabric-networking-api-v1) Received accepted channels from the client for "com.mojang.authlib.GameProfile@35eaa973[id=02b93f25-6b3e-31ad-b8e5-b502d04aa517,name=Player22,properties={},legacy=false] (local:E:f7dd44c5)"
+[04:11:59] [Server thread/DEBUG] (fabric-networking-api-v1) Sent accepted channels to the client for "com.mojang.authlib.GameProfile@35eaa973[id=02b93f25-6b3e-31ad-b8e5-b502d04aa517,name=Player22,properties={},legacy=false] (local:E:f7dd44c5)"
+[04:11:59] [Netty Local Client IO #0/DEBUG] (FabricRegistrySync) Registry minecraft:dimension_type has been marked as modded, registry entry minecraft:overworld was changed
+[04:11:59] [Server thread/INFO] (net.minecraft.server.PlayerManager) Player22[local:E:f7dd44c5] logged in with entity id 299 at (-187.91407224750247, 65.24918707874468, -160.4917641876199)
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Creating registry sync packet
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Skipping un-modded registry: minecraft:sound_event
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Skipping un-modded registry: minecraft:fluid
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Skipping un-modded registry: minecraft:mob_effect
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Skipping un-modded registry: minecraft:block
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Skipping un-modded registry: minecraft:enchantment
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Skipping un-modded registry: minecraft:entity_type
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Skipping un-modded registry: minecraft:item
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:potion
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Skipping un-modded registry: minecraft:particle_type
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:block_entity_type
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Skipping un-modded registry: minecraft:motive
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:custom_stat
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:chunk_status
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:rule_test
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:pos_rule_test
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Skipping un-modded registry: minecraft:menu
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:recipe_type
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:recipe_serializer
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:attribute
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Skipping un-modded registry: minecraft:stat_type
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Skipping un-modded registry: minecraft:villager_type
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Skipping un-modded registry: minecraft:villager_profession
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:point_of_interest_type
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:memory_module_type
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:sensor_type
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:schedule
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:activity
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:loot_pool_entry_type
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:loot_function_type
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:loot_condition_type
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:worldgen/surface_builder
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:worldgen/carver
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:worldgen/feature
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:worldgen/structure_feature
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:worldgen/structure_piece
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:worldgen/decorator
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:worldgen/block_state_provider_type
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:worldgen/block_placer_type
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:worldgen/foliage_placer_type
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:worldgen/trunk_placer_type
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:worldgen/tree_decorator_type
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:worldgen/feature_size_type
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:worldgen/biome_source
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:worldgen/chunk_generator
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:worldgen/structure_processor
+[04:11:59] [Server thread/DEBUG] (FabricRegistrySync) Not syncing registry: minecraft:worldgen/structure_pool_element
+[04:11:59] [Netty Local Client IO #0/DEBUG] (FabricRegistrySync) Registry minecraft:worldgen/noise_settings has been marked as modded, registry entry minecraft:overworld was changed
+[04:11:59] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Player22 joined the game
+[04:11:59] [Netty Local Client IO #0/DEBUG] (FabricLoader/Mixin) Mixing client.ClientCommandSourceMixin from fabric-command-api-v1.mixins.json into net.minecraft.client.network.ClientCommandSource
+[04:11:59] [Netty Local Client IO #0/DEBUG] (ClientPlayNetworkAddon for Player22) Handling inbound packet from channel with name "minecraft:brand"
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinClientPlayerInteractionManager from fabric-events-interaction-v0.mixins.json into net.minecraft.client.network.ClientPlayerInteractionManager
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) fabric-events-interaction-v0.mixins.json:MixinClientPlayerInteractionManager from mod fabric-events-interaction-v0->@Inject::attackBlock(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/Direction;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) fabric-events-interaction-v0.mixins.json:MixinClientPlayerInteractionManager from mod fabric-events-interaction-v0->@Inject::method_2902(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/Direction;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) fabric-events-interaction-v0.mixins.json:MixinClientPlayerInteractionManager from mod fabric-events-interaction-v0->@Inject::interactBlock(Lnet/minecraft/client/network/ClientPlayerEntity;Lnet/minecraft/client/world/ClientWorld;Lnet/minecraft/util/Hand;Lnet/minecraft/util/hit/BlockHitResult;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) fabric-events-interaction-v0.mixins.json:MixinClientPlayerInteractionManager from mod fabric-events-interaction-v0->@Inject::interactItem(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/world/World;Lnet/minecraft/util/Hand;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) fabric-events-interaction-v0.mixins.json:MixinClientPlayerInteractionManager from mod fabric-events-interaction-v0->@Inject::attackEntity(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) fabric-events-interaction-v0.mixins.json:MixinClientPlayerInteractionManager from mod fabric-events-interaction-v0->@Inject::interactEntityAtLocation(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/entity/Entity;Lnet/minecraft/util/hit/EntityHitResult;Lnet/minecraft/util/Hand;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) Mixing client.ClientChunkManagerMixin from fabric-lifecycle-events-v1.mixins.json into net.minecraft.client.world.ClientChunkManager
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) fabric-lifecycle-events-v1.mixins.json:client.ClientChunkManagerMixin from mod fabric-lifecycle-events-v1->@Inject::onChunkLoad(IILnet/minecraft/world/biome/source/BiomeArray;Lnet/minecraft/network/PacketByteBuf;Lnet/minecraft/nbt/NbtCompound;IZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) fabric-lifecycle-events-v1.mixins.json:client.ClientChunkManagerMixin from mod fabric-lifecycle-events-v1->@Inject::onChunkUnload(IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;ILnet/minecraft/world/chunk/WorldChunk;)V doesn't use it's CallbackInfo
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) fabric-lifecycle-events-v1.mixins.json:client.ClientChunkManagerMixin from mod fabric-lifecycle-events-v1->@Inject::onChunkUnload(IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;ILnet/minecraft/world/chunk/WorldChunk;)V has 0 override(s) in child classes
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) fabric-lifecycle-events-v1.mixins.json:client.ClientChunkManagerMixin from mod fabric-lifecycle-events-v1->@Inject::onChunkUnload(IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;ILnet/minecraft/world/chunk/WorldChunk;)V won't be passed a CallbackInfo as a result
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinBlockRenderLayer from fabric-blockrenderlayer-v1.mixins.json into net.minecraft.client.render.RenderLayers
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) fabric-blockrenderlayer-v1.mixins.json:MixinBlockRenderLayer from mod fabric-blockrenderlayer-v1->@Inject::onInitialize(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinChunkRenderer from fabric-renderer-indigo.mixins.json into net.minecraft.client.render.chunk.ChunkBuilder$BuiltChunk
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinChunkRebuildTask from fabric-renderer-indigo.mixins.json into net.minecraft.client.render.chunk.ChunkBuilder$BuiltChunk$RebuildTask
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) fabric-renderer-indigo.mixins.json:MixinChunkRebuildTask from mod fabric-renderer-indigo->@Inject::hookChunkBuild(FFFLnet/minecraft/client/render/chunk/ChunkBuilder$ChunkData;Lnet/minecraft/client/render/chunk/BlockBufferBuilderStorage;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) fabric-renderer-indigo.mixins.json:MixinChunkRebuildTask from mod fabric-renderer-indigo->@Inject::hookChunkBuild(FFFLnet/minecraft/client/render/chunk/ChunkBuilder$ChunkData;Lnet/minecraft/client/render/chunk/BlockBufferBuilderStorage;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) fabric-renderer-indigo.mixins.json:MixinChunkRebuildTask from mod fabric-renderer-indigo->@Inject::hookChunkBuild(FFFLnet/minecraft/client/render/chunk/ChunkBuilder$ChunkData;Lnet/minecraft/client/render/chunk/BlockBufferBuilderStorage;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) fabric-renderer-indigo.mixins.json:MixinChunkRebuildTask from mod fabric-renderer-indigo->@Inject::hookRebuildChunkReturn(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) fabric-renderer-indigo.mixins.json:MixinChunkRebuildTask from mod fabric-renderer-indigo->@Inject::hookRebuildChunkReturn(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) fabric-renderer-indigo.mixins.json:MixinChunkRebuildTask from mod fabric-renderer-indigo->@Inject::hookRebuildChunkReturn(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[04:11:59] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinChunkRenderData from fabric-renderer-indigo.mixins.json into net.minecraft.client.render.chunk.ChunkBuilder$ChunkData
+[04:12:00] [Netty Server IO #1/DEBUG] (ServerPlayNetworkAddon for Player22) Handling inbound packet from channel with name "minecraft:brand"
+[04:12:00] [Netty Server IO #1/DEBUG] (ServerPlayNetworkAddon for Player22) Handling inbound packet from channel with name "minecraft:register"
+[04:12:00] [Server thread/INFO] (net.minecraft.server.integrated.IntegratedServer) Saving and pausing game...
+[04:12:00] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[04:12:00] [main/INFO] (net.minecraft.advancement.AdvancementManager) Loaded 25 advancements
+[04:12:00] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinChunkRendererRegion from fabric-renderer-indigo.mixins.json into net.minecraft.client.render.chunk.ChunkRendererRegion
+[04:12:00] [main/DEBUG] (FabricLoader/Mixin) Mixing client.MixinChunkRendererRegion from fabric-rendering-data-attachment-v1.mixins.json into net.minecraft.client.render.chunk.ChunkRendererRegion
+[04:12:00] [main/DEBUG] (FabricLoader/Mixin) fabric-rendering-data-attachment-v1.mixins.json:client.MixinChunkRendererRegion from mod fabric-rendering-data-attachment-v1->@Inject::init(Lnet/minecraft/world/World;II[[Lnet/minecraft/world/chunk/WorldChunk;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[04:12:00] [main/DEBUG] (FabricLoader/Mixin) fabric-rendering-data-attachment-v1.mixins.json:client.MixinChunkRendererRegion from mod fabric-rendering-data-attachment-v1->@Inject::init(Lnet/minecraft/world/World;II[[Lnet/minecraft/world/chunk/WorldChunk;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[04:12:00] [main/DEBUG] (FabricLoader/Mixin) fabric-rendering-data-attachment-v1.mixins.json:client.MixinChunkRendererRegion from mod fabric-rendering-data-attachment-v1->@Inject::init(Lnet/minecraft/world/World;II[[Lnet/minecraft/world/chunk/WorldChunk;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[04:12:00] [Worker-Main-11/DEBUG] (com.mojang.authlib.HttpAuthenticationService) Opening connection to https://sessionserver.mojang.com/session/minecraft/profile/02b93f256b3e31adb8e5b502d04aa517?unsigned=true
+[04:12:00] [Worker-Main-11/DEBUG] (com.mojang.authlib.HttpAuthenticationService) Reading data from https://sessionserver.mojang.com/session/minecraft/profile/02b93f256b3e31adb8e5b502d04aa517?unsigned=true
+[04:12:00] [Server thread/DEBUG] (FabricLoader/Mixin) Mixing TypeAwareTradeMixin from fabric-object-builder-v1.mixins.json into net.minecraft.village.TradeOffers$TypeAwareBuyForOneEmeraldFactory
+[04:12:00] [Server thread/DEBUG] (FabricLoader/Mixin) fabric-object-builder-v1.mixins.json:TypeAwareTradeMixin from mod fabric-object-builder-api-v1->@Inject::failOnNullItem(Lnet/minecraft/entity/Entity;Ljava/util/Random;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/item/ItemStack;)V does use it's CallbackInfoReturnable
+[04:12:00] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinBuiltinModelItemRenderer from fabric-rendering-v1.mixins.json into net.minecraft.client.render.item.BuiltinModelItemRenderer
+[04:12:00] [main/DEBUG] (FabricLoader/Mixin) fabric-rendering-v1.mixins.json:MixinBuiltinModelItemRenderer from mod fabric-rendering-v1->@Inject::fabric_onRender(Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/render/model/json/ModelTransformation$Mode;Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[04:12:00] [main/DEBUG] (FabricLoader/Mixin) Mixing ModelPredicateProviderRegistryAccessor from fabric-object-builder-v1.mixins.json into net.minecraft.client.item.ModelPredicateProviderRegistry
+[04:12:00] [main/DEBUG] (FabricLoader/Mixin) Renaming @Invoker method callRegister(Lnet/minecraft/util/Identifier;Lnet/minecraft/client/item/ModelPredicateProvider;)Lnet/minecraft/client/item/ModelPredicateProvider; to callRegister_$md$888632$0 in fabric-object-builder-v1.mixins.json:ModelPredicateProviderRegistryAccessor from mod fabric-object-builder-api-v1
+[04:12:00] [main/DEBUG] (FabricLoader/Mixin) Mixing ModelPredicateProviderRegistrySpecificAccessor from fabric-object-builder-v1.mixins.json into net.minecraft.client.item.ModelPredicateProviderRegistry
+[04:12:00] [main/DEBUG] (FabricLoader/Mixin) Renaming @Invoker method callRegister(Lnet/minecraft/item/Item;Lnet/minecraft/util/Identifier;Lnet/minecraft/client/item/ModelPredicateProvider;)V to callRegister_$md$888632$1 in fabric-object-builder-v1.mixins.json:ModelPredicateProviderRegistrySpecificAccessor from mod fabric-object-builder-api-v1
+[04:12:00] [Worker-Main-11/DEBUG] (com.mojang.authlib.HttpAuthenticationService) Successful read, server response was 204
+[04:12:00] [Worker-Main-11/DEBUG] (com.mojang.authlib.HttpAuthenticationService) Response: 
+[04:12:00] [Worker-Main-11/DEBUG] (com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService) Couldn't fetch profile properties for com.mojang.authlib.GameProfile@60f00a72[id=02b93f25-6b3e-31ad-b8e5-b502d04aa517,name=Player22,properties={},legacy=false] as the profile does not exist
+[04:12:01] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[04:12:01] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Starting registry save
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sound_event
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:fluid
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Skipping un-modded registry: minecraft:mob_effect
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:enchantment
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:entity_type
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:item
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:potion
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:particle_type
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block_entity_type
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:motive
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:custom_stat
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:chunk_status
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:rule_test
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:pos_rule_test
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:menu
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_type
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_serializer
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:attribute
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:stat_type
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_type
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_profession
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:point_of_interest_type
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:memory_module_type
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sensor_type
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:schedule
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:activity
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_pool_entry_type
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_function_type
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_condition_type
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/surface_builder
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/carver
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_feature
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_piece
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/decorator
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/block_state_provider_type
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/block_placer_type
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/foliage_placer_type
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/trunk_placer_type
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/tree_decorator_type
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature_size_type
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/biome_source
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/chunk_generator
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_processor
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_pool_element
+[04:12:01] [Server thread/DEBUG] (FabricRegistrySync) Not saving empty registry data
+[04:12:03] [main/INFO] (net.minecraft.client.gui.hud.ChatHud) [CHAT] [Debug]: Hitboxes: shown
+[04:12:04] [Worker-Main-9/DEBUG] (FabricLoader/Mixin) Mixing SpawnRestrictionAccessor from fabric-object-builder-v1.mixins.json into net.minecraft.entity.SpawnRestriction
+[04:12:04] [Worker-Main-9/DEBUG] (FabricLoader/Mixin) Renaming @Invoker method callRegister(Lnet/minecraft/entity/EntityType;Lnet/minecraft/entity/SpawnRestriction$Location;Lnet/minecraft/world/Heightmap$Type;Lnet/minecraft/entity/SpawnRestriction$SpawnPredicate;)V to callRegister_$md$888632$0 in fabric-object-builder-v1.mixins.json:SpawnRestrictionAccessor from mod fabric-object-builder-api-v1
+[04:12:15] [main/DEBUG] (FabricLoader/Mixin) Mixing client.MixinCreativePlayerInventoryGui from fabric-item-groups-v0.mixins.json into net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen
+[04:12:15] [main/DEBUG] (FabricLoader/Mixin) fabric-item-groups-v0.mixins.json:client.MixinCreativePlayerInventoryGui from mod fabric-item-groups-v0->@Inject::init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[04:12:15] [main/DEBUG] (FabricLoader/Mixin) fabric-item-groups-v0.mixins.json:client.MixinCreativePlayerInventoryGui from mod fabric-item-groups-v0->@Inject::init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[04:12:15] [main/DEBUG] (FabricLoader/Mixin) fabric-item-groups-v0.mixins.json:client.MixinCreativePlayerInventoryGui from mod fabric-item-groups-v0->@Inject::init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[04:12:15] [main/DEBUG] (FabricLoader/Mixin) fabric-item-groups-v0.mixins.json:client.MixinCreativePlayerInventoryGui from mod fabric-item-groups-v0->@Inject::setSelectedTab(Lnet/minecraft/item/ItemGroup;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[04:12:15] [main/DEBUG] (FabricLoader/Mixin) fabric-item-groups-v0.mixins.json:client.MixinCreativePlayerInventoryGui from mod fabric-item-groups-v0->@Inject::renderTabTooltipIfHovered(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/item/ItemGroup;IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:12:15] [main/DEBUG] (FabricLoader/Mixin) fabric-item-groups-v0.mixins.json:client.MixinCreativePlayerInventoryGui from mod fabric-item-groups-v0->@Inject::isClickInTab(Lnet/minecraft/item/ItemGroup;DDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[04:12:15] [main/DEBUG] (FabricLoader/Mixin) fabric-item-groups-v0.mixins.json:client.MixinCreativePlayerInventoryGui from mod fabric-item-groups-v0->@Inject::renderTabIcon(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/item/ItemGroup;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[04:12:15] [main/INFO] (net.minecraft.client.MinecraftClient) Stopping!
+[04:12:15] [Server thread/INFO] (net.minecraft.server.network.ServerPlayNetworkHandler) Player22 lost connection: Disconnected
+[04:12:15] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Player22 left the game
+[04:12:15] [Server thread/INFO] (net.minecraft.server.network.ServerPlayNetworkHandler) Stopping singleplayer server as player logged out
+[04:12:16] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Stopping server
+[04:12:16] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving players
+[04:12:16] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving worlds
+[04:12:16] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[04:12:16] [Server thread/INFO] (net.minecraft.server.world.ThreadedAnvilChunkStorage) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[04:12:16] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[04:12:16] [Server thread/INFO] (net.minecraft.server.world.ThreadedAnvilChunkStorage) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:12:16] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[04:12:16] [Server thread/INFO] (net.minecraft.server.world.ThreadedAnvilChunkStorage) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Starting registry save
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sound_event
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:fluid
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Skipping un-modded registry: minecraft:mob_effect
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:enchantment
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:entity_type
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:item
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:potion
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:particle_type
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block_entity_type
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:motive
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:custom_stat
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:chunk_status
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:rule_test
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:pos_rule_test
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:menu
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_type
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_serializer
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:attribute
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:stat_type
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_type
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_profession
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:point_of_interest_type
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:memory_module_type
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sensor_type
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:schedule
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:activity
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_pool_entry_type
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_function_type
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_condition_type
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/surface_builder
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/carver
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_feature
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_piece
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/decorator
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/block_state_provider_type
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/block_placer_type
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/foliage_placer_type
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/trunk_placer_type
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/tree_decorator_type
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature_size_type
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/biome_source
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/chunk_generator
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_processor
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_pool_element
+[04:12:16] [Server thread/DEBUG] (FabricRegistrySync) Not saving empty registry data
+[04:12:16] [Server thread/INFO] (net.minecraft.server.world.ThreadedAnvilChunkStorage) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[04:12:16] [Server thread/INFO] (net.minecraft.server.world.ThreadedAnvilChunkStorage) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:12:16] [Server thread/INFO] (net.minecraft.server.world.ThreadedAnvilChunkStorage) ThreadedAnvilChunkStorage (DIM1): All chunks are saved

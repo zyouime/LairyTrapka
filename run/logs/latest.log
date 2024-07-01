@@ -71,3 +71,51 @@
 [04:10:54] [main/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
 [04:10:54] [main/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
 [04:10:54] [main/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[04:11:53] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04:11:53] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:11:53] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:11:53] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04:11:53] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:11:53] [main/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1))
+[04:11:53] [main/INFO] (Minecraft) Loaded 7 recipes
+[04:11:53] [main/INFO] (Minecraft) Loaded 927 advancements
+[04:11:53] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 79 new biomes in 1.536 ms
+[04:11:54] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04:11:54] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.16.5
+[04:11:54] [Server thread/INFO] (Minecraft) Generating keypair
+[04:11:54] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[04:11:55] [main/INFO] (Minecraft) Preparing spawn area: 0%
+[04:11:55] [main/INFO] (Minecraft) Preparing spawn area: 0%
+[04:11:55] [main/INFO] (Minecraft) Preparing spawn area: 0%
+[04:11:57] [main/INFO] (Minecraft) Preparing spawn area: 83%
+[04:11:57] [main/INFO] (Minecraft) Preparing spawn area: 83%
+[04:11:57] [main/INFO] (Minecraft) Preparing spawn area: 83%
+[04:11:57] [main/INFO] (Minecraft) Preparing spawn area: 91%
+[04:11:58] [main/INFO] (Minecraft) Preparing spawn area: 91%
+[04:11:58] [main/INFO] (Minecraft) Preparing spawn area: 96%
+[04:11:58] [main/INFO] (Minecraft) Time elapsed: 4233 ms
+[04:11:59] [Server thread/INFO] (Minecraft) Changing view distance to 11, from 10
+[04:11:59] [Server thread/INFO] (Minecraft) Player22[local:E:f7dd44c5] logged in with entity id 299 at (-187.91407224750247, 65.24918707874468, -160.4917641876199)
+[04:11:59] [Server thread/INFO] (Minecraft) Player22 joined the game
+[04:12:00] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[04:12:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[04:12:00] [main/INFO] (Minecraft) Loaded 25 advancements
+[04:12:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[04:12:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[04:12:03] [main/INFO] (Minecraft) [CHAT] [Debug]: Hitboxes: shown
+[04:12:15] [main/INFO] (Minecraft) Stopping!
+[04:12:15] [Server thread/INFO] (Minecraft) Player22 lost connection: Disconnected
+[04:12:15] [Server thread/INFO] (Minecraft) Player22 left the game
+[04:12:15] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[04:12:16] [Server thread/INFO] (Minecraft) Stopping server
+[04:12:16] [Server thread/INFO] (Minecraft) Saving players
+[04:12:16] [Server thread/INFO] (Minecraft) Saving worlds
+[04:12:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[04:12:16] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[04:12:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[04:12:16] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:12:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[04:12:16] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:12:16] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[04:12:16] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:12:16] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
