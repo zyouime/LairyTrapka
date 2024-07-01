@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "lairytrapka",
+  "version": "${version}",
+  "name": "LairyTrapka-1.16.5",
+  "description": "Визуально удаляет предметы лежащие на полу",
+  "authors": ["zyouime13"],
+  "contact": {
+    "homepage": "https://www.youtube.com/@Lairy4"
+  },
+  "license": "MIT",
+  "icon": "assets/lairytrapka/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.zyouime.lairytrapka.client.LairyTrapkaClient"
+    ],
+    "main": [
+      "me.zyouime.lairytrapka.LairyTrapka"
+    ]
+  },
+  "mixins": [
+    "lairytrapka.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
