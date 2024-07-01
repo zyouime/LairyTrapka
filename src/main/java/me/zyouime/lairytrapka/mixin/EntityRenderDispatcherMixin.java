@@ -26,7 +26,7 @@ public class EntityRenderDispatcherMixin {
     }
 
     @Inject(method = "renderHitbox", at = @At("HEAD"), cancellable = true)
-    private static void render(MatrixStack matrices, VertexConsumer vertices, Entity entity, float tickDelta, CallbackInfo ci) {
+    private void render(MatrixStack matrices, VertexConsumer vertices, Entity entity, float tickDelta, CallbackInfo ci) {
         if (LairyTrapka.itemRenderer) {
             if (entity instanceof ItemEntity) {
                 ci.cancel();
