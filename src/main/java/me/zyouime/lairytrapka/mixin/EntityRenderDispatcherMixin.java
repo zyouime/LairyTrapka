@@ -1,6 +1,7 @@
 package me.zyouime.lairytrapka.mixin;
 
 import me.zyouime.lairytrapka.LairyTrapka;
+import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRenderDispatcher;
 import net.minecraft.client.util.math.MatrixStack;
@@ -17,6 +18,15 @@ public class EntityRenderDispatcherMixin {
 
     @Inject(method = "renderShadow", at = @At("HEAD"), cancellable = true)
     private static void render(MatrixStack matrices, VertexConsumerProvider vertexConsumers, Entity entity, float opacity, float tickDelta, WorldView world, float radius, CallbackInfo ci) {
+        if (LairyTrapka.itemRenderer) {
+            if (entity instanceof ItemEntity) {
+                ci.cancel();
+            }
+        }
+    }
+
+    @Inject(method = "renderHitbox", at = @At("HEAD"), cancellable = true)
+    private static void render(MatrixStack matrices, VertexConsumer vertices, Entity entity, float tickDelta, CallbackInfo ci) {
         if (LairyTrapka.itemRenderer) {
             if (entity instanceof ItemEntity) {
                 ci.cancel();
