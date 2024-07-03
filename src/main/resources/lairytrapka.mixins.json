@@ -4,10 +4,11 @@
   "package": "me.zyouime.lairytrapka.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "ItemEntityRendererMixin",
+    "WorldMixin",
+    "WorldRendererMixin"
   ],
   "client": [
-    "EntityRenderDispatcherMixin",
-    "ItemEntityRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1

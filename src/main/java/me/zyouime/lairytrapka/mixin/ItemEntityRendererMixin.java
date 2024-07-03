@@ -21,6 +21,8 @@ public abstract class ItemEntityRendererMixin extends EntityRenderer<ItemEntity>
     @Inject(method = "render(Lnet/minecraft/entity/ItemEntity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V", at = @At("HEAD"), cancellable = true)
     private void render(ItemEntity itemEntity, float f, float g, MatrixStack matrixStack, VertexConsumerProvider vertexConsumerProvider, int i, CallbackInfo ci) {
         if (LairyTrapka.itemRenderer) {
+            this.dispatcher.setRenderShadows(false);
+            this.dispatcher.setRenderHitboxes(false);
             ci.cancel();
         }
     }
