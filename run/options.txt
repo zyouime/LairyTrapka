@@ -24,7 +24,7 @@ screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:0.0
 renderDistance:12
-entityDistanceScaling:1.0
+entityDistanceScaling:0.5
 guiScale:0
 particles:0
 maxFps:260
@@ -100,6 +100,7 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.topkahitboxes.openInterface:key.keyboard.right.control
 key_key.lairytrapka.bind:key.keyboard.g
 key_key.modmenu.open_menu:key.keyboard.unknown
 soundCategory_master:1.0
